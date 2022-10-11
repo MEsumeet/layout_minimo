@@ -1,0 +1,123 @@
+
+
+/*------------------------ header section ------------------------ */
+.header{
+    padding: 60px 0;
+}
+.logo {
+	height: 56px;
+	line-height: 64px;
+}
+.logo a {
+	display: inline-block;
+	height: 100%;
+}
+.header .navbar li {
+	text-transform: uppercase;
+    margin-left: 80px;
+}
+.header .navbar li a{
+    
+    color: #626262;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.header .navbar li:last-of-type a{
+    padding-right: 0;
+}
+
+/*------------------------ main section ------------------------*/
+/*------------------------ main article ------------------------*/
+.article-type {
+	color: #b4ad9e;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300;
+    display: inline-block;
+}
+.article-heading {
+	text-transform: capitalize;
+	color: #626262;
+	font-size: 30px;
+}
+.article-post {
+	color: #626262;
+	font-size: 14px;
+    line-height: 1.5;
+}
+
+/*------------------------ sub article ------------------------*/
+
+.sub-articles{
+    padding: 120px 0;
+}
+
+/*------------------------ newsletter ------------------------*/
+.newsletter{
+    padding: 70px 0;
+    background-color: #f0f0f0;
+}
+.sign-up{
+    position: relative;
+}
+.sign-up h3 {
+    font-size: 30px;
+    color: #333333;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.sign-up input{
+    height: 30px;
+    width: 30%;
+    border-style: none;
+    border-bottom: 1px solid #616161;
+    background-color: #f0f0f0;
+}
+.sign-up input:focus{
+    border-style: none;
+}
+.sign-up .icon {
+	position: absolute;
+	right: 35%;
+	font-size: 20px;
+    color: #616161;
+}
+
+/*------------------------ sub article-2 ------------------------*/
+.sub-articles-2{
+    padding: 100px 0 70px 0;
+}
+.load-more {
+	height: 60px;
+	width: 20%;
+	background-color: #fff;
+	color: #626262;
+	font-size: 20px;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+.load-more:hover{
+    background-color: #f0f0f0;
+}
+
+/*------------------------ footer section ------------------------*/
+.footer{
+    padding: 35px 0;
+    background-color: #f0f0f0;
+}
+.terms li, .links li {
+	font-size: 14px;
+	color: #000;
+	text-transform: capitalize;
+}
+.terms li{
+    margin-right: 15px;
+}
+.links li{
+    margin-left: 15px;
+}
+.links li a {
+    font-size: 14px;
+    color: #616161;
+}
